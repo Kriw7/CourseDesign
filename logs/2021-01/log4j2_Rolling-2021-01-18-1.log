@@ -1,0 +1,157 @@
+2021-01-18 01:13:21.399 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 01:13:22.494 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 01:13:22.568 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 01:13:22.638 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 01:13:22.791 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 01:13:23.293 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 01:13:23.653 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 01:13:24.167 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 01:13:24.179 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 01:13:25.323 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:13:26.026 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4617 ms
+2021-01-18 01:13:26.110 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 01:13:26.509 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:13:26.690 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 579 ms
+2021-01-18 01:18:20.758 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 01:18:21.751 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 01:18:21.853 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 01:18:21.915 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 01:18:22.053 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 01:18:22.501 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 01:18:22.792 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 01:18:23.243 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 01:18:23.251 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 01:18:24.310 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:18:25.000 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4236 ms
+2021-01-18 01:18:25.080 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 01:18:25.501 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:18:25.682 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 602 ms
+2021-01-18 01:27:51.411 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 01:27:52.329 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 01:27:52.427 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 01:27:52.486 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 01:27:52.615 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 01:27:53.103 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 01:27:53.407 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 01:27:53.951 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 01:27:53.958 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 01:27:55.096 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:27:55.764 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4347 ms
+2021-01-18 01:27:55.872 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 01:27:56.313 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:27:56.494 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 622 ms
+2021-01-18 01:30:45.511 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 01:30:46.347 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 01:30:46.424 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 01:30:46.482 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 01:30:46.633 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 01:30:47.146 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 01:30:47.471 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 01:30:47.946 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 01:30:47.954 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 01:30:48.916 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:30:49.438 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3923 ms
+2021-01-18 01:30:49.511 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 01:30:49.857 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:30:50.048 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 536 ms
+2021-01-18 01:36:37.002 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 01:36:37.963 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 01:36:38.060 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 01:36:38.138 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 01:36:38.286 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 01:36:38.779 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 01:36:39.068 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 01:36:39.563 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 01:36:39.571 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 01:36:40.620 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:36:41.184 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4178 ms
+2021-01-18 01:36:41.249 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 01:36:41.578 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 01:36:41.751 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 502 ms
+2021-01-18 03:13:27.297 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 03:13:28.138 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 03:13:28.210 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 03:13:28.393 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 03:13:28.530 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 03:13:28.854 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 03:13:29.149 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 03:13:29.661 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 03:13:29.670 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 03:13:30.637 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:13:31.150 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3849 ms
+2021-01-18 03:13:31.210 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 03:13:31.698 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:13:31.885 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 674 ms
+2021-01-18 03:27:38.605 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 03:27:39.528 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 03:27:39.604 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 03:27:39.785 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 03:27:39.940 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 03:27:40.299 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 03:27:40.615 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 03:27:41.195 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 03:27:41.204 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 03:27:42.225 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:27:42.828 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4219 ms
+2021-01-18 03:27:42.896 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 03:27:43.401 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:27:43.572 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 676 ms
+2021-01-18 03:30:24.133 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 03:30:25.016 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 03:30:25.086 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 03:30:25.133 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 03:30:25.253 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 03:30:25.739 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 03:30:26.108 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 03:30:26.604 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 03:30:26.612 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 03:30:27.562 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:30:28.101 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3961 ms
+2021-01-18 03:30:28.173 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 03:30:28.525 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 03:30:28.727 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 554 ms
+2021-01-18 04:05:56.762 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 04:05:57.724 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 04:05:57.805 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 04:05:57.868 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 04:05:58.006 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 04:05:58.596 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 04:05:58.989 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 04:05:59.612 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 04:05:59.621 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 04:06:01.285 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 04:06:02.010 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5242 ms
+2021-01-18 04:06:2021-01-18 04:06:02.545 [PathWatcher@4528c187] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSour2021-01-18 042021-01-18 04:06:02.678 [PathWatcher@4528c187] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 04:06:02.790 [PathWatcher@4528c187] INFO  org.hibernate.Version - HHH000412: Hibernat2021-01-18 04:06:02.897 [main] I2021-01-18 04:06:03.011 [PathWatcher@4528c187] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 04:06:03.354 [PathWatcher@4528c187] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 04:06:03.647 [PathWatcher@4528c187] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 04:06:04.294 [PathWatcher@4528c187] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 04:06:04.303 [PathWatcher@4528c187] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 04:06:12.251 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 04:06:13.058 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 04:06:13.136 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 04:06:13.289 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 04:06:13.413 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 04:06:13.745 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 04:06:14.039 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 04:06:14.508 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 04:06:14.516 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 04:06:15.471 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 04:06:15.977 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3721 ms
+2021-01-18 04:06:16.211 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 04:06:16.543 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 04:06:16.717 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 505 ms
+2021-01-18 09:57:54.155 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-01-18 09:57:55.097 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-01-18 09:57:55.171 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-18 09:57:55.372 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-01-18 09:57:55.506 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-18 09:57:55.894 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-01-18 09:57:56.184 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-01-18 09:57:56.650 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-18 09:57:56.659 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-18 09:57:57.599 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 09:57:58.170 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4010 ms
+2021-01-18 09:57:58.367 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-01-18 09:57:58.703 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-18 09:57:58.874 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 507 ms

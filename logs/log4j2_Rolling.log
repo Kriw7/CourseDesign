@@ -1,0 +1,52 @@
+2021-04-19 11:56:58.241 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-04-19 11:56:59.324 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 11:56:59.409 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 11:56:59.494 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-04-19 11:56:59.683 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-19 11:57:00.290 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-04-19 11:57:00.624 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-04-19 11:57:01.179 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 11:57:01.189 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 11:57:02.297 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 11:57:02.924 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4671 ms
+2021-04-19 11:57:03.008 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-04-19 11:57:03.419 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 11:57:03.621 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 613 ms
+2021-04-19 11:58:16.742 [qtp17921215-19] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.742 [qtp17921215-34] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.742 [qtp17921215-19] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-2' for key 'PRIMARY'
+2021-04-19 11:58:16.743 [qtp17921215-34] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'PRIMARY'
+2021-04-19 11:58:16.744 [qtp17921215-34] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.744 [qtp17921215-19] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.747 [qtp17921215-18] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.747 [qtp17921215-25] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.747 [qtp17921215-18] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-2' for key 'PRIMARY'
+2021-04-19 11:58:16.747 [qtp17921215-25] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'PRIMARY'
+2021-04-19 11:58:16.747 [qtp17921215-18] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.747 [qtp17921215-25] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.749 [qtp17921215-22] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.749 [qtp17921215-16] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.749 [qtp17921215-16] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'PRIMARY'
+2021-04-19 11:58:16.749 [qtp17921215-22] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-2' for key 'PRIMARY'
+2021-04-19 11:58:16.749 [qtp17921215-16] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.750 [qtp17921215-22] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.751 [qtp17921215-21] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.751 [qtp17921215-21] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'PRIMARY'
+2021-04-19 11:58:16.752 [qtp17921215-21] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 11:58:16.754 [qtp17921215-39] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2021-04-19 11:58:16.757 [qtp17921215-39] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '2-1' for key 'PRIMARY'
+2021-04-19 11:58:16.762 [qtp17921215-39] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2021-04-19 12:00:42.597 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2021-04-19 12:00:43.501 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-04-19 12:00:43.586 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 12:00:43.650 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-04-19 12:00:43.799 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-19 12:00:44.339 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-04-19 12:00:44.775 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.1.Final
+2021-04-19 12:00:45.402 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 12:00:45.412 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 12:00:46.519 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 12:00:47.103 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 4502 ms
+2021-04-19 12:00:47.174 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'webTest'
+2021-04-19 12:00:47.552 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 12:00:47.744 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 570 ms

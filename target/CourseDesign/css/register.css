@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman";
+}
+input{
+    font-family: 微软雅黑;
+}
+#window-container{
+    text-align: center;
+}
+#container-title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.register_column{
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 17px;
+}
+.tips{
+    height: 33px;
+}
+.tips>span{
+    margin-left: 12%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+.register_column>span{
+    display: inline-block;
+    width: 96px;
+    text-align: right;
+    margin-right: 20px;
+}
+#btn_register,#btn_cancel{
+    width: 100px;
+    text-indent: 0;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 20px;
+}
+#btn_register:hover,#btn_cancel:hover{
+    background-color: antiquewhite;
+}
+#ornament{
+    animation: flowerDance 13s linear infinite;
+    font-size: 20px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    user-select: none;
+
+}
+@keyframes flowerDance{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

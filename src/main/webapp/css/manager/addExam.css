@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "times new roman";
+}
+/* 开头的nav */
+#header{
+    position: fixed;
+    z-index: 100;
+    line-height:18px;
+    background-color: cornsilk;
+    width: 100%;
+    height: 60px;
+    opacity: 0.93;
+}
+#innerNav{
+    width: 1050px;
+    height: 60px;
+    background-color: #FAEBD7;
+    line-height:60px;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+#navPicture{
+    float: left;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 4px;
+}
+#navPicture>img{
+    height: 60px;
+}
+#navLog{
+    float: right;
+    min-width: 250px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#btn_cancel{
+    width: 80px;
+    height: 33px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+}
+#btn_cancel:hover{
+    background-color: #E1E1E1;
+}
+.navGroup{
+    height: 60px;
+    text-align: right;
+    list-style: none outside none;
+}
+.navGroup_item{
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+.navGroup_item>a{
+    text-decoration: none;
+    font-size: 19px;
+}
+.navGroup_item>a:link{
+    color: #F08080;
+}
+.navGroup_item>a:hover{
+    color: red;
+}
+/* 主体CSS */
+#img_background{
+    width: 100%;
+    z-index: -1;
+    user-select: none;
+}
+#context{
+    opacity: 0.9;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+/* 中央添加考试的部分 */
+#exam_basicInfo{
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+#exam_basicInfo>span{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#exam_basicInfo>input{
+    outline: none;
+    width: 170px;
+    height: 23px;
+    text-indent: 10px;
+    font-size: 20px;
+}
+#exam_duration{
+    padding: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+#exam_duration>span{
+    font-size: 20px;
+    margin-left: 70px;
+}
+#exam_duration>input{
+    width: 200px;
+    height: 23px;
+    font-size: 20px;
+    text-indent: 13px;
+    outline: none;
+}
+#exam_signDuration{
+    padding: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+#exam_signDuration>span{
+    font-size: 20px;
+    margin-left: 70px;
+}
+#exam_signDuration>input{
+    width: 200px;
+    height: 23px;
+    font-size: 20px;
+    text-indent: 13px;
+    outline: none;
+}
+#exam_limit{
+    padding: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+#exam_limit>span{
+    font-size: 20px;
+}
+#maxGrade{
+    width: 40px;
+    height: 25px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#majorList{
+    display: inline-block;
+    font-size: 20px;
+}
+#majorList>label{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#exam_content{
+    margin-top: 30px;
+}
+#exam_content>span{
+    vertical-align:top;
+    font-size: 21px;
+    /* background-color: #003EFF; */
+}
+#exam_content>textarea{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 240px;
+    outline: none;
+    font-size: 21px;
+    text-indent: 20px;
+    resize: none;
+}
+.btn_function{
+    width: 90px;
+    height: 44px;
+    font-size: 21px;
+    outline: none;
+    border: none;
+    background-color: dimgray;
+    color: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn_function:hover{
+    color: coral;
+}
+.checkbox_major,#checkbox_all{
+    margin-left: 5px;
+    cursor: pointer;
+}

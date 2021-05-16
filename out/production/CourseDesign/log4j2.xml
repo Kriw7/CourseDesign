@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF" monitorInterval="1800">
+    <!--调用属性的代称-->
+    <properties>
+        <property name="LOG_HOME">./logs</property>
+        <property name="FILE_NAME">log4j2_Rolling</property>
+    </properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!--自定义Appender-->
+        <!--        <File name="MyFile" fileName="/Users/kriw/Major_Study/MyLog/log4j2_Test.log">-->
+        <!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+        <!--        </File>-->
+        <RollingRandomAccessFile name="MyFile"
+                                 fileName="${LOG_HOME}/${FILE_NAME}.log"
+                                 filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd}-%i.log" immediateFlush="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingRandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <!--自定义Logger-->
+<!--        <Logger name="mylog" level="info" additivity="false">-->
+<!--            <AppenderRef  ref="MyFile"/>-->
+<!--        </Logger>-->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef  ref="MyFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
